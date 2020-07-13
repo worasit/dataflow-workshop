@@ -4,6 +4,7 @@ using Google Cloud Platform services.
 - Google Cloud PubSub
 - Google Cloud Dataflow
 - Google BigQuery
+- Google Cloud IAM
 
 ###The Overview of the Workshop
 
@@ -72,12 +73,12 @@ For this component, you need to checkout source code from this repository, and s
 
 **Direct Runner:**
 ```bash
-bash stream-direct-start.sh
+bash ./scripts/stream-direct-start.sh
 ```
 
 **Dataflow Runner:**
 ```bash
-bash stream-dataflow-start.sh
+bash ./scripts/stream-dataflow-start.sh
 ```
 
 ---
