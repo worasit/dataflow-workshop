@@ -1,0 +1,6 @@
+/Users/worasitdaimongkol/Repositories/dataflow-workshop/src/main/java/org/rdp/googlecloud/BatchWorkshop.java
+/Users/worasitdaimongkol/Repositories/dataflow-workshop/src/main/java/org/rdp/googlecloud/BatchPipelineOptions.java
+/Users/worasitdaimongkol/Repositories/dataflow-workshop/src/main/java/org/rdp/googlecloud/models/Covid19Record.java
+/Users/worasitdaimongkol/Repositories/dataflow-workshop/src/main/java/org/rdp/googlecloud/BatchTransform.java
+/Users/worasitdaimongkol/Repositories/dataflow-workshop/src/main/java/org/rdp/googlecloud/functions/BatchParseEventFn.java
+/Users/worasitdaimongkol/Repositories/dataflow-workshop/src/main/java/org/rdp/googlecloud/functions/BatchPrintRecordFn.java
