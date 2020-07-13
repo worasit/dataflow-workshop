@@ -56,5 +56,26 @@ Please follow this instruction: https://cloud.google.com/storage/docs/creating-b
 - name: `stream_demo_[xxx]`
 
 ### 3.) PubSub
-Create a new subscriber
+Create a new subscriber to consume NYC Taxi data from a public topic
+```bash
+gcloud alpha pubsub subscriptions create taxi-test-sub --topic projects/pubsub-public-data/topics/taxirides-realtime
+```
 
+### 4.) BigQuery
+Create a dataset to store `taxi_rides` information, please follow this instruction: 
+https://cloud.google.com/bigquery/docs/datasets#create-dataset
+- name `stream_demo`
+
+### 5.) Dataflow
+For this component, you need to checkout source code from this repository, and start an application at the file 
+[StreamWorkshop.java](../src/main/java/org/rdp/googlecloud/StreamWorkshop.java) with following commands:
+
+######Direct Runner:
+```bash
+bash stream-direct-start.sh
+```
+
+######Dataflow Runner:
+```bash
+bash stream-dataflow-start.sh
+```
