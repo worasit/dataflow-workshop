@@ -1,7 +1,0 @@
-org/rdp/googlecloud/functions/BatchParseEventFn.class
-org/rdp/googlecloud/BatchWorkshop.class
-org/rdp/googlecloud/BatchPipelineOptions.class
-org/rdp/googlecloud/models/Covid19Record$Covid19RecordBuilder.class
-org/rdp/googlecloud/BatchTransform.class
-org/rdp/googlecloud/models/Covid19Record.class
-org/rdp/googlecloud/functions/BatchPrintRecordFn.class
