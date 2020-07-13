@@ -36,7 +36,6 @@ public class BatchWorkshop {
         log.info("Batch Workshop is running...");
         log.info("GOOGLE_APPLICATION_CREDENTIALS: " + System.getenv("GOOGLE_APPLICATION_CREDENTIALS"));
 
-        // 1.) Read the pipeline options using custom options
         BatchPipelineOptions batchPipelineOptions = PipelineOptionsFactory
                 .fromArgs(args)
                 .withValidation()
