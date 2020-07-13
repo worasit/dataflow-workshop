@@ -5,7 +5,7 @@ using Google Cloud Platform services.
 - Google Cloud Dataflow
 - Google BigQuery
 
-####The Overview of the Workshop
+###The Overview of the Workshop
 
 ![overview](./img/stream-002.png)
 
@@ -71,12 +71,14 @@ https://cloud.google.com/bigquery/docs/datasets#create-dataset
 For this component, you need to checkout source code from this repository, and start an application at the file 
 [StreamWorkshop.java](../src/main/java/org/rdp/googlecloud/StreamWorkshop.java) with following commands:
 
-#####Direct Runner:
+**Direct Runner:**
 ```bash
 bash stream-direct-start.sh
 ```
 
-#####Dataflow Runner:
+**Dataflow Runner:**
 ```bash
 bash stream-dataflow-start.sh
 ```
+
+---
