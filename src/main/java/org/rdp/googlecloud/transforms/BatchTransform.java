@@ -1,14 +1,14 @@
-package org.rdp.googlecloud.transform;
+package org.rdp.googlecloud.transforms;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.transforms.*;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
-import org.rdp.googlecloud.options.BatchPipelineOptions;
 import org.rdp.googlecloud.functions.BatchParseRecordFn;
 import org.rdp.googlecloud.functions.BatchPrintRecordFn;
 import org.rdp.googlecloud.models.Covid19Record;
+import org.rdp.googlecloud.options.BatchPipelineOptions;
 
 @Slf4j
 public class BatchTransform extends PTransform<PCollection<String>, PCollection<KV<String, Integer>>> {

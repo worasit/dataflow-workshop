@@ -28,7 +28,7 @@ import org.apache.beam.sdk.transforms.SimpleFunction;
 import org.apache.beam.sdk.values.KV;
 import org.rdp.googlecloud.commons.TableSchemaFactory;
 import org.rdp.googlecloud.options.BatchPipelineOptions;
-import org.rdp.googlecloud.transform.BatchTransform;
+import org.rdp.googlecloud.transforms.BatchTransform;
 
 @Slf4j
 public class BatchWorkshop {
