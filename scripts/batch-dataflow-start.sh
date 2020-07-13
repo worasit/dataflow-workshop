@@ -2,7 +2,7 @@
 
 PROJECT="dataflow-demo-283112"
 BUCKET="batch_demo_001"
-RUNNER="DirectRunner"
+RUNNER="DataflowRunner"
 REGION="us-central1"
 
 
