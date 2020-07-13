@@ -15,7 +15,7 @@ public class StreamWorkshop {
 
 
     public static void main(String[] args) {
-        log.info("Batch Workshop is running...");
+        log.info("Stream Workshop is running...");
         log.info("GOOGLE_APPLICATION_CREDENTIALS: " + System.getenv("GOOGLE_APPLICATION_CREDENTIALS"));
 
         StreamPipelineOptions streamPipelineOptions = PipelineOptionsFactory
