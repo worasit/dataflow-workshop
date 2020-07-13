@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/batch-dataflow-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/batch-dataflow-start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/batch-direct-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/batch-direct-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/stream-dataflow-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stream-dataflow-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/stream-direct-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stream-direct-start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/rdp/googlecloud/BatchPipelineOptions.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/rdp/googlecloud/BatchWorkshop$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rdp/googlecloud/BatchWorkshop$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/rdp/googlecloud/BatchWorkshop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rdp/googlecloud/BatchWorkshop.class" afterDir="false" />
@@ -30,11 +28,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/batch-direct-start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="9" column="135" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="135" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/batch-dataflow-start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="147">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -92,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/stream-direct-start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="294">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -158,10 +156,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/transform/BatchTransform.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/BatchWorkshop.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/options/BatchPipelineOptions.java" />
-        <option value="$PROJECT_DIR$/scripts/batch-direct-start.sh" />
-        <option value="$PROJECT_DIR$/scripts/batch-dataflow-start.sh" />
         <option value="$PROJECT_DIR$/scripts/stream-dataflow-start.sh" />
         <option value="$PROJECT_DIR$/scripts/stream-direct-start.sh" />
+        <option value="$PROJECT_DIR$/scripts/batch-dataflow-start.sh" />
+        <option value="$PROJECT_DIR$/scripts/batch-direct-start.sh" />
       </list>
     </option>
   </component>
@@ -377,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594640366359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated start scripts to include all profiles dependencies.">
+      <created>1594640896752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594640896752</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29061000" />
+    <option name="totallyTimeSpent" value="29133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -428,7 +433,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated debug configurations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated debug configurations." />
+    <MESSAGE value="Updated start scripts to include all profiles dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated start scripts to include all profiles dependencies." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,17 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/batch-dataflow-start.sh">
+    <entry file="file://$PROJECT_DIR$/scripts/stream-direct-start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/batch-direct-start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="9" column="135" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="135" />
+        <state relative-caret-position="294">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -851,10 +850,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/stream-direct-start.sh">
+    <entry file="file://$PROJECT_DIR$/scripts/batch-dataflow-start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/batch-direct-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

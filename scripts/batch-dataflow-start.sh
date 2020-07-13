@@ -5,7 +5,7 @@ BUCKET="batch_demo_001"
 RUNNER="DataflowRunner"
 REGION="us-central1"
 
-echo "Start Streaming Data Pipeline with ${RUNNER} mode."
+echo "Start Batch Data Pipeline with ${RUNNER} mode."
 
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/worasitdaimongkol/Desktop/refinitiv_docs/dataflow-demo/dataflow-demo-service-account.json"
 
