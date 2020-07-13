@@ -23,12 +23,11 @@ import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
-import org.apache.beam.sdk.transforms.Flatten;
 import org.apache.beam.sdk.transforms.MapElements;
-import org.apache.beam.sdk.transforms.ParDo;
 import org.apache.beam.sdk.transforms.SimpleFunction;
 import org.apache.beam.sdk.values.KV;
 import org.rdp.googlecloud.commons.TableSchemaFactory;
+import org.rdp.googlecloud.options.BatchPipelineOptions;
 import org.rdp.googlecloud.transform.BatchTransform;
 
 @Slf4j

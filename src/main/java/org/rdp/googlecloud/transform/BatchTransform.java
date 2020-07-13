@@ -5,7 +5,7 @@ import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.transforms.*;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
-import org.rdp.googlecloud.BatchPipelineOptions;
+import org.rdp.googlecloud.options.BatchPipelineOptions;
 import org.rdp.googlecloud.functions.BatchParseRecordFn;
 import org.rdp.googlecloud.functions.BatchPrintRecordFn;
 import org.rdp.googlecloud.models.Covid19Record;

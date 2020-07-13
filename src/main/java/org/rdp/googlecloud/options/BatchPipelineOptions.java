@@ -1,4 +1,4 @@
-package org.rdp.googlecloud;
+package org.rdp.googlecloud.options;
 
 import org.apache.beam.sdk.options.Default;
 import org.apache.beam.sdk.options.Description;
