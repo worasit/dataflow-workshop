@@ -5,15 +5,11 @@ BUCKET="batch_demo_001"
 RUNNER="DirectRunner"
 REGION="us-central1"
 
-
-BQ_TABLE="taxi_rides"
-SUBSCRIPTION="taxi-test-sub"
-
 echo "Start Streaming Data Pipeline with ${RUNNER} mode."
 
-export GOOGLE_APPLICATION_CREDENTIALS="your/full/path/to/dataflow-demo-service-account.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/worasitdaimongkol/Desktop/refinitiv_docs/dataflow-demo/dataflow-demo-service-account.json"
 
-mvn compile exec:java -e \
+mvn compile exec:java -e -P direct-runner,dataflow-runner \
 -Dexec.mainClass=org.rdp.googlecloud.BatchWorkshop \
 -Dexec.args="--project=${PROJECT} \
 --stagingLocation=gs://${BUCKET}/staging \

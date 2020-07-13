@@ -11,9 +11,9 @@ SUBSCRIPTION="taxi-test-sub"
 
 echo "Start Streaming Data Pipeline with ${RUNNER} mode."
 
-export GOOGLE_APPLICATION_CREDENTIALS="your/full/path/to/dataflow-demo-service-account.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/worasitdaimongkol/Desktop/refinitiv_docs/dataflow-demo/dataflow-demo-service-account.json"
 
-mvn compile exec:java -e \
+mvn compile exec:java -e -P direct-runner,dataflow-runner \
 -Dexec.mainClass=org.rdp.googlecloud.StreamWorkshop \
 -Dexec.args="--project=${PROJECT} \
 --stagingLocation=gs://${PROJECT}/staging \
