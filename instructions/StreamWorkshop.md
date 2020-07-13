@@ -24,6 +24,7 @@ information from public topic provided by [NYC Taxi Tycoon](https://github.com/g
  
 
 ---
+
 ###Prerequisite
 - [gcloud CLI](https://cloud.google.com/sdk/docs/quickstart-macos)
 - GCP project with project owner permission
@@ -33,16 +34,14 @@ information from public topic provided by [NYC Taxi Tycoon](https://github.com/g
 
 
 ---
-### Labs
+
+## Labs Instruction
 Please follow belows instructions carefully, in order to complete the workshop without any blockers.
 
 ### 1.) Service Account
 Create a service account with empty permission
 - name: `dataflow-demo`
 - permission: `leave with empty`
-
-![service-account](./img/stream-001.png)
-
 - Download a service account file as `JSON`, and save to your local directory; this file will be used for 
 [services authentication](https://cloud.google.com/docs/authentication/production).
 - Configure environment variable to apply service account as below snippet
