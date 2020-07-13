@@ -7,7 +7,7 @@ using Google Cloud Platform services.
 
 ####The Overview of the Workshop
 
-
+![overview](./img/stream-002.png)
 
 You would create a new subscriber to consume `taxi_rides`
 information from public topic provided by [NYC Taxi Tycoon](https://github.com/googlecodelabs/cloud-dataflow-nyc-taxi-tycoon).
@@ -24,11 +24,12 @@ information from public topic provided by [NYC Taxi Tycoon](https://github.com/g
  
 
 ---
-####Prerequisite
+###Prerequisite
 - [gcloud CLI](https://cloud.google.com/sdk/docs/quickstart-macos)
 - GCP project with project owner permission
 - Java 8.0 SDK
 - A little prior knowledge in Cloud and Data Engineer
+- IntelliJ IDE (Preferable)
 
 
 ---
@@ -70,12 +71,12 @@ https://cloud.google.com/bigquery/docs/datasets#create-dataset
 For this component, you need to checkout source code from this repository, and start an application at the file 
 [StreamWorkshop.java](../src/main/java/org/rdp/googlecloud/StreamWorkshop.java) with following commands:
 
-######Direct Runner:
+#####Direct Runner:
 ```bash
 bash stream-direct-start.sh
 ```
 
-######Dataflow Runner:
+#####Dataflow Runner:
 ```bash
 bash stream-dataflow-start.sh
 ```
