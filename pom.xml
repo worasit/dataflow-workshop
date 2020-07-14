@@ -36,8 +36,8 @@
         <gcp.services.version>1.103.1</gcp.services.version>
         <maven-invoker.version>3.0.1</maven-invoker.version>
         <slf4j.version>1.7.25</slf4j.version>
-        <hamcrest.version>1.3</hamcrest.version>
-        <junit.version>4.13</junit.version>
+        <hamcrest.version>2.1</hamcrest.version>
+        <junit.version>4.13-beta-3</junit.version>
         <org.lombok.version>1.18.12</org.lombok.version>
     </properties>
 
@@ -255,10 +255,16 @@
         </dependency>
 
         <!-- Hamcrest and JUnit are required dependencies of PAssert,
-             which is used in the main code of DebuggingWordCount example. -->
+       which is used in the main code of DebuggingWordCount example. -->
         <dependency>
             <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-all</artifactId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>${hamcrest.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
             <version>${hamcrest.version}</version>
         </dependency>
 

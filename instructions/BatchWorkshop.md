@@ -54,7 +54,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="your/full/path/to/dataflow-demo-service-a
 Create a GCS bucket to store temporary data and application package used by Cloud Dataflow.
 Please follow this instruction: https://cloud.google.com/storage/docs/creating-buckets
 - name: `batch_demo_[xxx]`
-- upload `covid19_us_states.csv` to the GCS bucket
+- upload [`covid19_us_states.csv`](./resources/covid19_us_states.csv) to the GCS bucket
 
 ### 3.) BigQuery
 Create a dataset to store `total_deaths` information, please follow this instruction: 

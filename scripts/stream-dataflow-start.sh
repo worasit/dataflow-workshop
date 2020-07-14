@@ -11,14 +11,14 @@ SUBSCRIPTION="taxi-test-sub"
 
 echo "Start Streaming Data Pipeline with ${RUNNER} mode."
 
-export GOOGLE_APPLICATION_CREDENTIALS="your/full/path/to/dataflow-demo-service-account.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/worasitdaimongkol/Desktop/refinitiv_docs/dataflow-demo/dataflow-demo-service-account.json"
 
 mvn compile exec:java -e -P direct-runner,dataflow-runner \
 -Dexec.mainClass=org.rdp.googlecloud.StreamWorkshop \
 -Dexec.args="--project=${PROJECT} \
---stagingLocation=gs://${PROJECT}/staging \
---gcpTempLocation=gs://${PROJECT}/df_temp \
---tempLocation=gs://${PROJECT}/bq_temp \
+--stagingLocation=gs://${BUCKET}/staging \
+--gcpTempLocation=gs://${BUCKET}/df_temp \
+--tempLocation=gs://${BUCKET}/bq_temp \
 --outputTable=${PROJECT}:stream_demo.${BQ_TABLE} \
 --inputSubscription=projects/${PROJECT}/subscriptions/${SUBSCRIPTION} \
 --region=${REGION} \

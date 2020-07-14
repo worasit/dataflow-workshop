@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import org.rdp.googlecloud.models.Covid19Record;
 
-import java.util.Arrays;
 import java.util.Collections;
 
 @RunWith(JUnit4.class)
