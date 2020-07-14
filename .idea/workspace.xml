@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d7ad47d-0df6-49ad-bbc5-f8ae0b2ddb3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instructions/BatchWorkshop.md" beforeDir="false" afterPath="$PROJECT_DIR$/instructions/BatchWorkshop.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/stream-dataflow-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stream-dataflow-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/stream-direct-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stream-direct-start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/functions/StreamParseMessageFn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/functions/StreamParseMessageFn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/transforms/BatchTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/transforms/BatchTransform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/rdp/googlecloud/functions/BatchParseRecordFnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rdp/googlecloud/functions/BatchParseRecordFnTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +74,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/functions/StreamParseMessageFn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="147">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/metrics/Metrics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1153">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,15 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/stream-dataflow-start.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -307,7 +301,7 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594693602830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594693680256" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -465,7 +459,7 @@
       <workItem from="1594554422678" duration="1905000" />
       <workItem from="1594556663547" duration="3825000" />
       <workItem from="1594560799753" duration="22421000" />
-      <workItem from="1594641215474" duration="5508000" />
+      <workItem from="1594641215474" duration="5586000" />
     </task>
     <task id="LOCAL-00001" summary="Updated debug configurations.">
       <created>1594640366359</created>
@@ -509,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594645742134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated scripts">
+      <created>1594693631634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594693631634</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -545,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34885000" />
+    <option name="totallyTimeSpent" value="34963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -565,7 +566,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.65110564" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.65110564" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32923833" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -607,7 +608,8 @@
     <MESSAGE value="ignore un-versioned files." />
     <MESSAGE value="Removed junks." />
     <MESSAGE value="Revised wording." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revised wording." />
+    <MESSAGE value="Updated scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,13 +773,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/extern/apachecommons/CommonsLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/extern/log4j/Log4j2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1137,10 +1132,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/metrics/Metrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1153">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rdp/googlecloud/functions/StreamParseMessageFn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="147">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>

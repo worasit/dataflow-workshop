@@ -16,11 +16,11 @@ import java.nio.charset.StandardCharsets;
 
 public class StreamParseMessageFn extends DoFn<String, TableRow> {
 
-    private final Counter totalRecords = Metrics.counter(BatchTransform.class, "total_records");
+    private final Counter streamRecords = Metrics.counter(StreamParseMessageFn.class, "stream_records");
 
     @ProcessElement
     public void processElement(ProcessContext context) {
-        totalRecords.inc();
+        streamRecords.inc();
         TableRow row = convertJsonToTableRow(context.element());
         context.output(row);
     }
