@@ -37,7 +37,7 @@
         <maven-invoker.version>3.0.1</maven-invoker.version>
         <slf4j.version>1.7.25</slf4j.version>
         <hamcrest.version>2.1</hamcrest.version>
-        <junit.version>4.13-beta-3</junit.version>
+        <junit.version>4.13.1</junit.version>
         <org.lombok.version>1.18.12</org.lombok.version>
     </properties>
 
